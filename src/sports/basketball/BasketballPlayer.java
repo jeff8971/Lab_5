@@ -1,8 +1,8 @@
 package sports.basketball;
 
-import sports.IPlayer;
-
 import java.util.Objects;
+
+import sports.IPlayer;
 
 /**
  * BasketballPlayer class.
@@ -16,10 +16,10 @@ public class BasketballPlayer implements IPlayer<BasketballStats> {
   /**
    * BasketballPlayer constructor.
    *
-   * @param name player's name.
-   * @param age player's age.
+   * @param name   player's name.
+   * @param age    player's age.
    * @param height player's height.
-   * @param stats player's stat. From class BasketballStats.
+   * @param stats  player's stat. From class BasketballStats.
    */
   public BasketballPlayer(String name, int age, double height, BasketballStats stats) {
     this.name = name;
@@ -38,9 +38,9 @@ public class BasketballPlayer implements IPlayer<BasketballStats> {
     this.age = other.age;
     this.height = other.height;
     this.stats = new BasketballStats(
-      other.stats.getPointsPerGame(),
-      other.stats.getReboundsPerGame(),
-      other.stats.getAssistsPerGame());
+            other.stats.getPointsPerGame(),
+            other.stats.getReboundsPerGame(),
+            other.stats.getAssistsPerGame());
   }
 
   /**
