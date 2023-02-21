@@ -1,12 +1,12 @@
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+
 import org.junit.Before;
 import org.junit.Test;
-
 import sports.basketball.BasketballPlayer;
 import sports.basketball.BasketballPlayerComparator;
 import sports.basketball.BasketballStats;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
 
 /**
  * Comparator Test.
@@ -15,9 +15,13 @@ public class ComparatorTest {
 
   public BasketballPlayer YaoMing;
   public BasketballPlayer MichealJordan;
+  public BasketballPlayer YaoYao;
+  public BasketballPlayer YaoYaoYao;
 
   public BasketballStats YaoStat;
   public BasketballStats MichealStat;
+
+
 
   /**
    * Set up two basketball players to test.
@@ -31,6 +35,13 @@ public class ComparatorTest {
       YaoStat);
     MichealJordan = new BasketballPlayer("Micheal Jordan", 42, 6.6,
       MichealStat);
+
+
+    YaoYao = new BasketballPlayer("Yao Ming", 30, 7.6,
+        new BasketballStats(34.4, 6.8, 4.2));
+
+    YaoYaoYao = new BasketballPlayer("YaoYaoYao", 25, 6.0,
+        new BasketballStats(40.0, 4.0, 2.0));
   }
 
   /**
@@ -40,10 +51,7 @@ public class ComparatorTest {
   public void testCompare() {
     BasketballPlayerComparator comparator = new BasketballPlayerComparator();
 
-    BasketballPlayer YaoYao = new BasketballPlayer("Yao Ming", 30, 7.6,
-        new BasketballStats(34.4, 6.8, 4.2));
-    BasketballPlayer YaoYaoYao = new BasketballPlayer("YaoYaoYao", 25, 6.0,
-        new BasketballStats(40.0, 4.0, 2.0));
+
 
     assertTrue(comparator.compare(YaoMing, MichealJordan) < 0);
     assertTrue(comparator.compare(YaoMing, MichealJordan) < 0);
