@@ -1,14 +1,11 @@
 package sports;
 
-import sports.basketball.BasketballPlayer;
-import sports.basketball.BasketballPlayerComparator;
-import sports.basketball.BasketballStats;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 import java.util.function.BiFunction;
+import sports.basketball.BasketballPlayerComparator;
 
 
 /**
@@ -71,7 +68,7 @@ public class Roster<T, R> {
   /**
    * Combines the stats of all the players in the roster into a single result using a fold function.
    *
-   * @param combiner The function that combines the stats of two players into a single result.
+   * @param combiner  The function that combines the stats of two players into a single result.
    * @param seedValue The initial value of the result.
    * @return The result of combining the stats of all the players in the roster.
    */

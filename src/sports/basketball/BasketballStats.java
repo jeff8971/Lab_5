@@ -59,8 +59,12 @@ public class BasketballStats {
    */
   @Override
   public boolean equals(Object other) {
-    if (this == other) return true;
-    if (this.getClass() != other.getClass()) return false;
+    if (this == other) {
+      return true;
+    }
+    if (this.getClass() != other.getClass()) {
+      return false;
+    }
     BasketballStats o = (BasketballStats) other;
     return (this.assistsPerGame == o.assistsPerGame
             && this.reboundsPerGame == o.reboundsPerGame
