@@ -2,23 +2,20 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
 import static org.junit.Assert.assertNotSame;
 
-
 import org.junit.Before;
 import org.junit.Test;
 import sports.basketball.BasketballPlayer;
 import sports.basketball.BasketballStats;
 
-
 /**
  * BasketballPlayer test.
  */
 public class BasketballPlayerTest {
+  public BasketballPlayer YaoMing;
+  public BasketballPlayer MichealJordan;
 
-  private BasketballPlayer YaoMing;
-  private BasketballPlayer MichealJordan;
-
-  private BasketballStats YaoStat;
-  private BasketballStats MichealStat;
+  public BasketballStats YaoStat;
+  public BasketballStats MichealStat;
 
   /**
    * Set up two basketball players to test.
@@ -97,10 +94,10 @@ public class BasketballPlayerTest {
    */
   @Test
   public void testHashCode() {
-	  BasketballPlayer YaoYao = new BasketballPlayer("Yao Ming", 30, 7.6,
-					  new BasketballStats(34.4, 6.8, 4.2));
-	  BasketballPlayer YaoYaoYao = new BasketballPlayer("YaoYaoYao", 25, 6.0,
-					  new BasketballStats(40.0, 4.0, 2.0));
+    BasketballPlayer YaoYao = new BasketballPlayer("Yao Ming", 30, 7.6,
+            new BasketballStats(34.4, 6.8, 4.2));
+    BasketballPlayer YaoYaoYao = new BasketballPlayer("YaoYaoYao", 25, 6.0,
+            new BasketballStats(40.0, 4.0, 2.0));
     assertEquals(YaoMing.hashCode(), YaoYao.hashCode());
     assertNotEquals(YaoYaoYao.hashCode(), YaoMing.hashCode());
   }

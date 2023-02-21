@@ -20,11 +20,13 @@ public class BasketballPlayerComparator implements Comparator<BasketballPlayer> 
     BasketballStats stats2;
     stats1 = player1.getStats();
     stats2 = player2.getStats();
-    if (Double.compare(stats1.getPointsPerGame(), stats2.getPointsPerGame()) == 0)
+    if (Double.compare(stats1.getPointsPerGame(), stats2.getPointsPerGame()) == 0) {
       return 0;
-    else if (stats1.getPointsPerGame() > stats2.getPointsPerGame())
+    } else if (stats1.getPointsPerGame() > stats2.getPointsPerGame()) {
       return 1;
-    else
+    } else {
       return -1;
+    }
+
   }
 }
