@@ -5,8 +5,8 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 import java.util.function.BiFunction;
-import sports.basketball.BasketballPlayerComparator;
 
+import sports.basketball.BasketballPlayerComparator;
 
 /**
  * A class that represents a roster of players of a specific sport.
