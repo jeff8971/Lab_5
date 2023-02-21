@@ -1,12 +1,11 @@
-import sports.IPlayer;
-import sports.Roster;
-import sports.basketball.BasketballPlayer;
-import sports.basketball.BasketballStats;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.BiFunction;
 
+import sports.IPlayer;
+import sports.Roster;
+import sports.basketball.BasketballPlayer;
+import sports.basketball.BasketballStats;
 
 /**
  * Main entry.
@@ -15,6 +14,7 @@ public class Main {
 
   /**
    * Main function.
+   *
    * @param args args.
    */
   public static void main(String[] args) {
