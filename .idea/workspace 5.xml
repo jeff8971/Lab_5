@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dc3d8bd8-7677-4260-b7f6-3a781bc6239c" name="Changes" comment="update Test">
+      <change beforePath="$PROJECT_DIR$/test/BasketballPlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/BasketballPlayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ComparatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ComparatorTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <servers />
+  </component>
+</project>
