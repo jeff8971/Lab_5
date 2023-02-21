@@ -28,9 +28,9 @@ public class ComparatorTest {
     YaoStat = new BasketballStats(34.4, 6.8, 4.2);
 
     YaoMing = new BasketballPlayer("Yao Ming", 30, 7.6,
-            YaoStat);
+      YaoStat);
     MichealJordan = new BasketballPlayer("Micheal Jordan", 42, 6.6,
-            MichealStat);
+      MichealStat);
   }
 
   /**
@@ -41,9 +41,9 @@ public class ComparatorTest {
     BasketballPlayerComparator comparator = new BasketballPlayerComparator();
 
     BasketballPlayer YaoYao = new BasketballPlayer("Yao Ming", 30, 7.6,
-            new BasketballStats(34.4, 6.8, 4.2));
+        new BasketballStats(34.4, 6.8, 4.2));
     BasketballPlayer YaoYaoYao = new BasketballPlayer("YaoYaoYao", 25, 6.0,
-            new BasketballStats(40.0, 4.0, 2.0));
+        new BasketballStats(40.0, 4.0, 2.0));
 
     assertTrue(comparator.compare(YaoMing, MichealJordan) < 0);
     assertTrue(comparator.compare(YaoMing, MichealJordan) < 0);
