@@ -1,14 +1,12 @@
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
+import java.util.List;
 import org.junit.Before;
 import org.junit.Test;
 import sports.Roster;
 import sports.basketball.BasketballPlayer;
 import sports.basketball.BasketballStats;
-
-import java.util.List;
-
 
 /**
  * RosterTest class.
