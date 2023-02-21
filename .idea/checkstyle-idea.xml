@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CheckStyle-IDEA" serialisationVersion="2">
+    <checkstyleVersion>8.41.1</checkstyleVersion>
+    <scanScope>Everything</scanScope>
+    <suppressErrors>true</suppressErrors>
+    <copyLibs>true</copyLibs>
+    <option name="thirdPartyClasspath" />
+    <option name="activeLocationIds">
+      <option value="40594fdc-ff56-4d1b-9463-08a6b10cd393" />
+      <option value="bfd3b48f-af01-4cf5-9e60-01b48eeca5ee" />
+    </option>
+    <option name="locations">
+      <list>
+        <ConfigurationLocation id="bundled-sun-checks" type="BUNDLED" scope="All" description="Sun Checks">(bundled)</ConfigurationLocation>
+        <ConfigurationLocation id="bundled-google-checks" type="BUNDLED" scope="All" description="Google Checks">(bundled)</ConfigurationLocation>
+        <ConfigurationLocation id="bfd3b48f-af01-4cf5-9e60-01b48eeca5ee" type="LOCAL_FILE" scope="All" description="50042">$PROJECT_DIR$/../../code_styles/cs5004-checkstyle-edited-google-checks.xml</ConfigurationLocation>
+        <ConfigurationLocation id="40594fdc-ff56-4d1b-9463-08a6b10cd393" type="PROJECT_RELATIVE" scope="All" description="cs5004">$PROJECT_DIR$/../../code_styles/cs5004-checkstyle-edited-google-checks.xml</ConfigurationLocation>
+      </list>
+    </option>
+  </component>
+</project>
